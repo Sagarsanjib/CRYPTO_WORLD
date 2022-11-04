@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="icon" href="./images/okkk.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+     
+        
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
+
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Federant&display=swap" rel="stylesheet">
+
+
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+
+        
+        <script src="https://kit.fontawesome.com/da0a5c7df4.js" crossorigin="anonymous"></script>
+ 
+    </head>
+
+    <body>
+
+        <!-- Navigation Bar-->
+            <nav class="flex_container">
+
+                <div class="flex_container">
+
+                    <img src="./cryptoicon/navlogo.png" alt="logo" class="logo"/>
+                    
+                     <h1>CryptoView</h1>
+
+                </div>
+ 
+                <a href="search.html" class="anchor_btn">Search</a>
+            </nav>
+
+        <!--Main section containing main heading and image-->
+
+            <section class="main           flex_container">
+
+            
+                <h1>CryptoView 
+
+                    <br/>
+                    <br />
+                     The New Level of 
+                     <br/>
+                     Digital Currency
+                </h1>
+
+                <img src="./cryptoimg/crypto1.png"alt="Main Image"/>
+                
+            </section>
+
+
+        <!-- Second section containing top 4/5 coin information-->
+        
+            <section class="trending_coin      ">
+
+
+                <div class="scroll_animation  flex_container">
+
+                    <div class="card" >
+
+                        <img src="./cryptoicon/bitcoin.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Bitcoin</h3>
+
+                            <h4>
+                                ₹ <span id="bitcoin_price_container"></span>
+                            </h4>
+                        </div>
+                       
+                    </div>
+    
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/ethereum.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Ethereum</h3>
+
+                            <h4>
+                                ₹ <span id="ethereum_price_container"></span>
+                            </h4>
+                        </div>
+                       
+                    </div>
+    
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/tether.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+                            <h3>Tether</h3>
+                            
+                            <h4>
+                                ₹ <span id="tether_price_container"></span>
+                            </h4>
+
+                        </div>
+                       
+                    </div>
+    
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/solana.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Solana</h3>
+
+                            <h4>
+                                ₹ <span id="solana_price_container"></span>
+                            </h4>
+
+                        </div>
+                       
+                    </div>
+    
+                    
+    
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/fantom.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Fantom</h3>
+
+                            <h4>
+                                ₹ <span id="fantom_price_container"></span>
+                            </h4>
+
+                        </div>
+                       
+                    </div>
+
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/polkadot.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Polkadot</h3>
+
+                            <h4>
+                                ₹ <span id="polkadot_price_container"></span>
+                            </h4>
+                            
+                        </div>
+                       
+                    </div>
+
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/litecoin.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Litecoin</h3>
+
+                            <h4>
+                                ₹ <span id="litecoin_price_container"></span>
+                            </h4>
+                            
+                        </div>
+                       
+                    </div>
+    
+
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/stellar.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Stellar</h3>
+
+                            <h4>
+                                ₹ <span id="stellar_price_container"></span>
+                            </h4>
+                            
+                        </div>
+                       
+                    </div>
+    
+
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/dogecoin.png" alt="coin image"  class="float-left" />
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Dogecoin</h3>
+
+                            <h4>
+                                ₹ <span id="dogecoin_price_container"></span>
+                            </h4>
+                            
+                        </div>
+                       
+                    </div>
+    
+
+                    <div class="card" >
+    
+                        <img src="./cryptoicon/binamon 1.jpg" alt="coin image"  class="float-left"  style="border-radius: 50px;"/>
+    
+                        <div class="float-right   margin-left1">
+
+                            <h3>Binamon</h3>
+
+                            <h4>
+                                ₹ <span id="binamon_price_container"></span>
+                            </h4>
+                            
+                        </div>
+                       
+                    </div>
+    
+    
+    
+                    
+                </div>
+                
+                
+                
+                    
+            </section>
+
+
+        <!-- Third section containing the main features of the website-->
+            
+            <section class="features                 flex_container">
+
+                <div class="card">
+
+                    <h1>Free</h1>
+                    <p>This is a completely free to use Website. We do not show any ads or we do not have any paid membership.</p>
+                
+                </div>
+
+                <div class="card">
+
+                    <h1>Historical Data</h1>
+                    <p>We show graphical representation of historical data of the cryptocurrencies. The graphs can be selected from 24 hours upto 1 year.</p>
+                
+                </div>
+
+                <div class="card">
+
+                    <h1>100+ Coins</h1>
+                    
+                    <p>We show the data of many popular Cryptocurrencies and even have a search functionality for a smoother User Expereince.</p>
+                
+                </div>
+
+
+            </section>
+
+
+        <!-- This is the footer part containing copyright created by etc etc.-->
+
+            <footer >
+                <i class="fa-brands fa-facebook"></i>
+                &emsp;
+                <i class="fa-brands fa-instagram-square"></i>
+                &emsp;
+                <i class="fa-brands fa-twitter"></i>
+                &emsp;
+                <i class="fa-brands fa-linkedin"></i>
+                &emsp;
+                <h2>copyright &copy; 2022 Sagar & team.</h2>
+
+                
+            </footer>
+
+
+
+
+
+
+
+
+
+            <script src="./index.js"></script> 
+
+        
+    </body>
+
+</html>

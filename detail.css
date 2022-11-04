@@ -1,0 +1,135 @@
+.flex_container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description_price
+{
+    justify-content: space-around;
+    background-color: #d4fad4;
+    
+    padding-right: 0px;
+    
+}
+.description
+{
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.description > img
+{
+    width: 10rem;
+}
+.w_40
+{
+    width: 40vw;
+}
+
+.text_justify
+{
+    text-align: justify;
+}
+
+.margin_top_1
+{
+    margin-top: 1.5rem;
+}
+
+.historical
+{
+    position: relative;
+    height: 15rem;
+    width: 50vw;
+    margin: auto;
+    
+}
+.margin_top_2
+{
+    margin-top: 2rem;
+}
+
+body
+    {
+        margin: 0px;
+        background-color: rgb(222, 230, 227);
+        
+    }
+h1,h2,h3,h4,h5,h6
+    {
+        margin: 0px;
+    }
+
+
+nav
+    {
+
+        
+        height: 3rem;
+        color: black;
+        padding: 0.15rem 1.5rem;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+nav > div .logo
+    {
+        height: 2.5rem;
+        width: 2.5rem;
+        
+        
+    }
+
+nav > div > h1
+    {
+        display: inline;
+        
+    }
+nav > div > button
+    {
+        float: right;
+        
+    }
+nav > div
+    {
+        align-items: center;
+    }
+
+.anchor_btn
+    {
+        border: 1px solid gray;
+        padding: 0.5rem;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.25s all;
+        color: black;
+    }
+.anchor_btn:hover
+    {
+        background-color: grey;
+        color: white;
+    }
+
+.flex_container
+
+    {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    }
+footer
+    {
+        text-align: center;
+        padding: 1.5rem;
+        margin-top: 150px;
+        font-family: 'Tapestry', cursive;
+        background-color: rgb(243, 229, 229);
+        
+        
+    }
+footer > h2
+    {
+        padding-top: 1rem;
+    }
